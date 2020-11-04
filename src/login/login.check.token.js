@@ -7,22 +7,19 @@ module.exports = (req, res, next) => {
         return next();
     }
     const authHeader = req.header("Authorization");
-    console.log(`authHeader ${authHeader}`);
     if (authHeader) {
         const [type, token] = authHeader.split(" ");
         if (type !== "Bearer") {
-            res.status(401).send('Forbidden1');
-            console.log('Forbidden1');
+            res.status(401).send('Forbidden');
             return;
         }
         try {
             const verification = jwt.verify(token, JWT_SECRET_KEY);
         } catch (error) {
-            res.status(401).send('Forbidden2');
-            console.log('Forbidden2');
+            res.status(401).send('Forbidden');
             return;
         }
         return next();
     }
-    res.status(401).send('Forbidden3');
+    res.status(401).send('Forbidden');
 }

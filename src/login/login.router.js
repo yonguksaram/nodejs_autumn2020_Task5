@@ -6,7 +6,6 @@ router.post('/', async (req, res) => {
     const {login, password} = req.body;
 
     const token = await loginService.singToken(login, password);
-    console.log(`token ${token}`);
     if (!token) {
         res.sendStatus(403);
     } else {
