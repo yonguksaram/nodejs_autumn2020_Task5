@@ -1,0 +1,416 @@
+2020-10-23T19:46:55.002Z: uncaughtException: user.save is not a function
+TypeError: user.save is not a function
+    at D:\RS nodejs\Task4 start\src\data\data.js:11:32
+    at Array.forEach (<anonymous>)
+    at connectionToDB (D:\RS nodejs\Task4 start\src\data\data.js:11:11)
+    at Object.<anonymous> (D:\RS nodejs\Task4 start\src\server.js:5:1)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47
+2020-10-23T19:58:19.498Z: uncaughtException: db.client.dropDatabase is not a function
+TypeError: db.client.dropDatabase is not a function
+    at NativeConnection.<anonymous> (D:\RS nodejs\Task4 start\src\data\data.js:14:19)
+    at Object.onceWrapper (events.js:421:28)
+    at NativeConnection.emit (events.js:315:20)
+    at _setClient (D:\RS nodejs\Task4 start\node_modules\mongoose\lib\connection.js:947:8)
+    at D:\RS nodejs\Task4 start\node_modules\mongoose\lib\connection.js:794:7
+    at D:\RS nodejs\Task4 start\node_modules\mongodb\lib\utils.js:674:5
+    at D:\RS nodejs\Task4 start\node_modules\mongodb\lib\mongo_client.js:225:7
+    at connectCallback (D:\RS nodejs\Task4 start\node_modules\mongodb\lib\operations\connect.js:366:5)
+    at D:\RS nodejs\Task4 start\node_modules\mongodb\lib\operations\connect.js:602:5
+    at connectHandler (D:\RS nodejs\Task4 start\node_modules\mongodb\lib\core\sdam\topology.js:297:43)
+    at cb (D:\RS nodejs\Task4 start\node_modules\mongodb\lib\core\sdam\topology.js:681:26)
+    at D:\RS nodejs\Task4 start\node_modules\mongodb\lib\cmap\connection_pool.js:350:13
+    at handleOperationResult (D:\RS nodejs\Task4 start\node_modules\mongodb\lib\core\sdam\server.js:558:5)
+    at MessageStream.messageHandler (D:\RS nodejs\Task4 start\node_modules\mongodb\lib\cmap\connection.js:277:5)
+    at MessageStream.emit (events.js:315:20)
+    at processIncomingData (D:\RS nodejs\Task4 start\node_modules\mongodb\lib\cmap\message_stream.js:144:12)
+2020-10-24T08:54:04.853Z: uncaughtException: Strings is not defined
+ReferenceError: Strings is not defined
+    at Object.<anonymous> (D:\RS nodejs\Task4 start\src\resources\boards\board.model.js:23:13)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (D:\RS nodejs\Task4 start\src\resources\boards\board.router.js:2:15)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (D:\RS nodejs\Task4 start\src\app.js:6:21)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+2020-10-24T08:54:44.308Z: uncaughtException: await is only valid in async function
+D:\RS nodejs\Task4 start\src\resources\boards\board.memory.repository.js:9
+  let allBoards = await Board.find({}).exec();
+                  ^^^^^
+
+SyntaxError: await is only valid in async function
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (D:\RS nodejs\Task4 start\src\resources\boards\board.service.js:1:20)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (D:\RS nodejs\Task4 start\src\resources\boards\board.router.js:3:23)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+2020-10-24T08:55:07.131Z: uncaughtException: await is only valid in async function
+D:\RS nodejs\Task4 start\src\resources\boards\board.memory.repository.js:9
+  let allBoards = await Board.find({}).exec();
+                  ^^^^^
+
+SyntaxError: await is only valid in async function
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (D:\RS nodejs\Task4 start\src\resources\boards\board.service.js:1:20)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (D:\RS nodejs\Task4 start\src\resources\boards\board.router.js:3:23)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+2020-10-24T08:55:22.636Z: uncaughtException: Invalid shorthand property initializer
+D:\RS nodejs\Task4 start\src\resources\tasks\task.model.js:38
+  boardId = String,
+  ^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid shorthand property initializer
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (D:\RS nodejs\Task4 start\src\resources\tasks\task.router.js:2:14)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (D:\RS nodejs\Task4 start\src\app.js:7:20)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+2020-10-24T09:04:29.414Z: uncaughtException: Cannot find module './task.model'
+Require stack:
+- D:\RS nodejs\Task4 start\src\resources\boards\board.memory.repository.js
+- D:\RS nodejs\Task4 start\src\resources\boards\board.service.js
+- D:\RS nodejs\Task4 start\src\resources\boards\board.router.js
+- D:\RS nodejs\Task4 start\src\app.js
+- D:\RS nodejs\Task4 start\src\server.js
+Error: Cannot find module './task.model'
+Require stack:
+- D:\RS nodejs\Task4 start\src\resources\boards\board.memory.repository.js
+- D:\RS nodejs\Task4 start\src\resources\boards\board.service.js
+- D:\RS nodejs\Task4 start\src\resources\boards\board.router.js
+- D:\RS nodejs\Task4 start\src\app.js
+- D:\RS nodejs\Task4 start\src\server.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:965:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:841:27)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (D:\RS nodejs\Task4 start\src\resources\boards\board.memory.repository.js:4:14)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (D:\RS nodejs\Task4 start\src\resources\boards\board.service.js:1:20)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+2020-10-24T09:04:38.460Z: uncaughtException: Cannot find module './task.model'
+Require stack:
+- D:\RS nodejs\Task4 start\src\resources\boards\board.memory.repository.js
+- D:\RS nodejs\Task4 start\src\resources\boards\board.service.js
+- D:\RS nodejs\Task4 start\src\resources\boards\board.router.js
+- D:\RS nodejs\Task4 start\src\app.js
+- D:\RS nodejs\Task4 start\src\server.js
+Error: Cannot find module './task.model'
+Require stack:
+- D:\RS nodejs\Task4 start\src\resources\boards\board.memory.repository.js
+- D:\RS nodejs\Task4 start\src\resources\boards\board.service.js
+- D:\RS nodejs\Task4 start\src\resources\boards\board.router.js
+- D:\RS nodejs\Task4 start\src\app.js
+- D:\RS nodejs\Task4 start\src\server.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:965:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:841:27)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (D:\RS nodejs\Task4 start\src\resources\boards\board.memory.repository.js:4:14)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (D:\RS nodejs\Task4 start\src\resources\boards\board.service.js:1:20)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+2020-11-03T20:09:26.215Z: uncaughtException: await is only valid in async function
+D:\RS nodejs\Task 5 start\src\login\login.service.js:6
+    let user = await User.findOne({login: login, password: password}).exec();
+               ^^^^^
+
+SyntaxError: await is only valid in async function
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (D:\RS nodejs\Task 5 start\src\login\login.router.js:2:22)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (D:\RS nodejs\Task 5 start\src\app.js:8:21)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+2020-11-03T20:09:48.367Z: uncaughtException: Unexpected token 'const'
+D:\RS nodejs\Task 5 start\src\login\login.service.js:5
+async const singToken = (login, password) => {
+      ^^^^^
+
+SyntaxError: Unexpected token 'const'
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (D:\RS nodejs\Task 5 start\src\login\login.router.js:2:22)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (D:\RS nodejs\Task 5 start\src\app.js:8:21)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+2020-11-03T20:10:01.974Z: uncaughtException: Unexpected token 'const'
+D:\RS nodejs\Task 5 start\src\login\login.service.js:5
+async const singToken = (login, password) => {
+      ^^^^^
+
+SyntaxError: Unexpected token 'const'
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (D:\RS nodejs\Task 5 start\src\login\login.router.js:2:22)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (D:\RS nodejs\Task 5 start\src\app.js:8:21)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+2020-11-03T20:10:08.823Z: uncaughtException: Unexpected token '='
+D:\RS nodejs\Task 5 start\src\login\login.service.js:5
+async function singToken = (login, password) => {
+                         ^
+
+SyntaxError: Unexpected token '='
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (D:\RS nodejs\Task 5 start\src\login\login.router.js:2:22)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (D:\RS nodejs\Task 5 start\src\app.js:8:21)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+2020-11-03T20:10:26.652Z: uncaughtException: Identifier 'login' has already been declared
+D:\RS nodejs\Task 5 start\src\login\login.service.js:12
+    const {id, login} = user;
+               ^
+
+SyntaxError: Identifier 'login' has already been declared
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (D:\RS nodejs\Task 5 start\src\login\login.router.js:2:22)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (D:\RS nodejs\Task 5 start\src\app.js:8:21)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+2020-11-03T20:11:11.564Z: uncaughtException: Identifier 'login' has already been declared
+D:\RS nodejs\Task 5 start\src\login\login.service.js:12
+    const {id, login} = user;
+               ^
+
+SyntaxError: Identifier 'login' has already been declared
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (D:\RS nodejs\Task 5 start\src\login\login.router.js:2:22)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (D:\RS nodejs\Task 5 start\src\app.js:8:21)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+2020-11-03T20:11:34.780Z: uncaughtException: Cannot find module './user.model'
+Require stack:
+- D:\RS nodejs\Task 5 start\src\login\login.service.js
+- D:\RS nodejs\Task 5 start\src\login\login.router.js
+- D:\RS nodejs\Task 5 start\src\app.js
+- D:\RS nodejs\Task 5 start\src\server.js
+Error: Cannot find module './user.model'
+Require stack:
+- D:\RS nodejs\Task 5 start\src\login\login.service.js
+- D:\RS nodejs\Task 5 start\src\login\login.router.js
+- D:\RS nodejs\Task 5 start\src\app.js
+- D:\RS nodejs\Task 5 start\src\server.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:965:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:841:27)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (D:\RS nodejs\Task 5 start\src\login\login.service.js:1:14)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (D:\RS nodejs\Task 5 start\src\login\login.router.js:2:22)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+2020-11-03T20:12:02.104Z: uncaughtException: Cannot find module './resources/user.model'
+Require stack:
+- D:\RS nodejs\Task 5 start\src\login\login.service.js
+- D:\RS nodejs\Task 5 start\src\login\login.router.js
+- D:\RS nodejs\Task 5 start\src\app.js
+- D:\RS nodejs\Task 5 start\src\server.js
+Error: Cannot find module './resources/user.model'
+Require stack:
+- D:\RS nodejs\Task 5 start\src\login\login.service.js
+- D:\RS nodejs\Task 5 start\src\login\login.router.js
+- D:\RS nodejs\Task 5 start\src\app.js
+- D:\RS nodejs\Task 5 start\src\server.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:965:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:841:27)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (D:\RS nodejs\Task 5 start\src\login\login.service.js:1:14)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (D:\RS nodejs\Task 5 start\src\login\login.router.js:2:22)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+2020-11-03T20:12:18.492Z: uncaughtException: Cannot find module '../../resources/user.model'
+Require stack:
+- D:\RS nodejs\Task 5 start\src\login\login.service.js
+- D:\RS nodejs\Task 5 start\src\login\login.router.js
+- D:\RS nodejs\Task 5 start\src\app.js
+- D:\RS nodejs\Task 5 start\src\server.js
+Error: Cannot find module '../../resources/user.model'
+Require stack:
+- D:\RS nodejs\Task 5 start\src\login\login.service.js
+- D:\RS nodejs\Task 5 start\src\login\login.router.js
+- D:\RS nodejs\Task 5 start\src\app.js
+- D:\RS nodejs\Task 5 start\src\server.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:965:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:841:27)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (D:\RS nodejs\Task 5 start\src\login\login.service.js:1:14)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (D:\RS nodejs\Task 5 start\src\login\login.router.js:2:22)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+2020-11-03T20:13:03.592Z: uncaughtException: Cannot find module '../../helper/customLogger'
+Require stack:
+- D:\RS nodejs\Task 5 start\src\login\login.router.js
+- D:\RS nodejs\Task 5 start\src\app.js
+- D:\RS nodejs\Task 5 start\src\server.js
+Error: Cannot find module '../../helper/customLogger'
+Require stack:
+- D:\RS nodejs\Task 5 start\src\login\login.router.js
+- D:\RS nodejs\Task 5 start\src\app.js
+- D:\RS nodejs\Task 5 start\src\server.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:965:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:841:27)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (D:\RS nodejs\Task 5 start\src\login\login.router.js:3:22)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (D:\RS nodejs\Task 5 start\src\app.js:8:21)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
